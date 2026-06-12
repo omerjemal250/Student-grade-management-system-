@@ -1,0 +1,65 @@
+body {
+  background: #f1f5f9;
+  min-height: 100vh;
+}
+
+.home-page {
+  padding-top: 4rem;
+}
+
+.hero-content {
+  background: #ffffff;
+}
+
+.hero-card {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.feature-card {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.card, .hero-content, .hero-card, .feature-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover, .hero-card:hover, .feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+
+.navbar-brand {
+  letter-spacing: 0.02em;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.btn-outline-primary {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+.btn-outline-primary:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.dashboard-page .card {
+  border: none;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+.alert {
+  border-radius: 15px;
+}
